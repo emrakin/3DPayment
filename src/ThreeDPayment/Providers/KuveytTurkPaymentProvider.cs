@@ -168,6 +168,9 @@ namespace ThreeDPayment.Providers
             return VerifyGatewayResult.Failed(model.ResponseMessage, model.ResponseCode);
         }
 
+        //Projede Issue kısmını göremedim o bakımdan burada yazıyorum kusura bakma.
+        //Ben projede bu kısımda takıldım nasıl ilerleyeceğimi tam kestiremedim.
+        //Eğer bu kısmı yaptıysan paylaşabilir misin?
         public Task<CancelPaymentResult> CancelRequest(CancelPaymentRequest request)
         {
             throw new NotImplementedException();
